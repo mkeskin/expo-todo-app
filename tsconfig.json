@@ -1,0 +1,13 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@shared/layouts": ["src/shared/layouts"],
+      "@utils": ["src/shared/utils"],
+      "@components": ["src/components"],
+      "@screens": ["src/screens"],
+      "@models/*": ["src/models/*"],
+    }
+  }
+}
